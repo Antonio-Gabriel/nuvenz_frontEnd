@@ -1,3 +1,4 @@
+import { Hero } from "./components/Hero";
 import { Header } from "./layout/Header";
 import { Navbar } from "./components/Navbar";
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Navbar />
+      <Hero />
     </>
   );
 }
