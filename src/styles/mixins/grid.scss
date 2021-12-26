@@ -1,0 +1,6 @@
+@mixin grid {
+  display: grid;
+  gap: 1rem;
+
+  @content;
+}
