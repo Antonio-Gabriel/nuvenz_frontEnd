@@ -1,0 +1,55 @@
+@import "../../styles/variables/variables";
+
+.section {
+  padding: 6.25rem 3rem;
+
+  .clients-Header {
+    height: auto;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 2.25rem;
+      font-weight: weight("bold");
+      color: var(--dark-900);
+
+      text-align: center;
+
+      margin-bottom: 1.375rem;
+    }
+
+    p {
+      width: 313px;
+      text-align: center;
+      color: var(--dark-900);
+    }
+  }
+
+  img {
+    margin-top: 3.625rem;
+  }
+
+  button {
+    width: 215px;
+    height: 54px;
+
+    border: none;
+    background: var(--red-700);
+    border-radius: 4px;
+
+    font-weight: weight("bold");
+    color: var(--white);
+
+    margin-top: 2.25rem;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

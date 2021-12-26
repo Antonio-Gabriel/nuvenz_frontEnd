@@ -2,7 +2,7 @@ import "./styles.scss";
 
 export function Hero() {
   return (
-    <section>
+    <section className="hero">
       <div className="container">
         <div className="text">
           <span>A maior plataforma angolana de cursos</span>

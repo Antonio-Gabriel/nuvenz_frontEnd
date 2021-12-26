@@ -1,49 +1,54 @@
 @import "../../styles/variables/variables";
 
-section {
+.hero {
   background-image: url(../../assets/images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 34.875rem;
 
-  display: flex !important;
-  align-items: center !important;
+  padding: 6rem 0 6.25rem 0;
 
-  .text {
-    max-width: 29.125rem;
+  .container {
+    display: flex !important;
+    align-items: center !important;
 
-    span {
-      font-size: 1.5rem;
-      font-weight: weight("bold");
-      color: var(--orange-300);
+    margin-left: 78px;
 
-      margin-bottom: 0.75rem;
-    }
+    .text {
+      max-width: 29.125rem;
 
-    h1 {
-      font-size: 3rem;
-      font-weight: weight("bold");
-      color: var(--white);
+      span {
+        font-size: 1.5rem;
+        font-weight: weight("bold");
+        color: var(--orange-300);
 
-      margin-bottom: 1.75rem;
-    }
+        margin-bottom: 0.75rem;
+      }
 
-    button {
-      width: 261px;
-      height: 54px;
+      h1 {
+        font-size: 3rem;
+        font-weight: weight("bold");
+        color: var(--white);
 
-      border: none;
-      border-radius: 4px;
-      background: var(--red-700);
-      color: var(--white);
-      cursor: pointer;
+        margin-bottom: 1.75rem;
+      }
 
-      font-weight: weight("bold");
+      button {
+        width: 261px;
+        height: 54px;
 
-      transition: 0.2s;
+        border: none;
+        border-radius: 4px;
+        background: var(--red-700);
+        color: var(--white);
+        cursor: pointer;
 
-      &:hover {
-        filter: brightness(0.8);
+        font-weight: weight("bold");
+
+        transition: 0.2s;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
       }
     }
   }
