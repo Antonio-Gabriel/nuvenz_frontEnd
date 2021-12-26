@@ -52,49 +52,5 @@
       width: 100%;
       height: 540px;
     }
-
-    .info {
-      display: flex;
-
-      &:first-child {
-        margin-top: 0.5rem;
-      }
-
-      .icon {
-        width: 72px;
-        height: 72px;
-
-        background: var(--gray-200);
-        border-radius: 50%;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          height: 24px;
-        }
-      }
-
-      .text {
-        margin-left: 40px;
-
-        h3 {
-          font-size: 1.5rem;
-          color: var(--dark-900);
-          font-weight: weight("medium");
-
-          margin-bottom: 0.5rem;
-        }
-
-        p {
-          color: var(--dark-900);
-        }
-      }
-
-      + .info {
-        margin-top: 3rem;
-      }
-    }
   }
 }

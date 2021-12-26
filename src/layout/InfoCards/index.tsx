@@ -1,7 +1,9 @@
-import companyImage from "../../assets/images/company.png";
 import courseImage from "../../assets/images/cources.png";
+import companyImage from "../../assets/images/company.png";
 
 import "./styles.scss";
+
+import { InfoCard } from "../../components/InfoCard";
 
 export function InfoCards() {
   return (
@@ -9,30 +11,22 @@ export function InfoCards() {
       <div className="container">
         <div className="columns">
           <div className="column is-6">
-            <div className="card">
-              <div className="text">
-                <span className="desc-span">Para empresas de Angola</span>
-                <h3>Conheça nossas soluções para empresas</h3>
-                <p>Uma solução que tem como finalidade demostrar</p>
-                <button>Conhecer a solução</button>
-              </div>
-
-              <img src={companyImage} alt="company description" />
-            </div>
+            <InfoCard
+              image={companyImage}
+              span="Para empresas de Angola"
+              title="Conheça nossas soluções para empresas"
+              description="Uma solução que tem como finalidade demostrar"
+              actionText="Conhecer a solução"
+            />
           </div>
           <div className="column is-6">
-            <div className="card">
-              <div className="text">
-                <span className="desc-span">Para empresas de Angola</span>
-                <h3>
-                  Cadastre seus cursos no instituto <span>Bukas</span>
-                </h3>
-                <p>Uma solução que tem como finalidade demostrar</p>
-                <button>Cadastrar cursos</button>
-              </div>
-
-              <img src={courseImage} alt="course description" />
-            </div>
+            <InfoCard
+              image={courseImage}
+              span="Para empresas de Angola"
+              title="Cadastre seus cursos no instituto Bukar"
+              description="Uma solução que tem como finalidade demostrar"
+              actionText="Cadastrar cursos"
+            />
           </div>
         </div>
       </div>
