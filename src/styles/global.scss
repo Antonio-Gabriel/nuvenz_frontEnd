@@ -1,0 +1,28 @@
+@import "./variables/_variables.scss";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --red-700: #d60042;
+  --dark-900: #0f0f0f;
+  --orange-300: #ff9416;
+  --gray-200: #f6f4f4;
+}
+
+body {
+  font: {
+    family: "Roboto", sans-serif;
+    weight: weight("regular");
+    size: 1rem;
+  }
+
+  background: var(--white);
+  color: var(--dark-900);
+}
