@@ -6,11 +6,8 @@ Aproveito mencionar que a aplicação não está responsiva tento em conta o cur
 
 > Startar o projecto com o comando a baixo
 
-### `yarn start`
+### `yarn start` ou `npm start`
 
-Executar a aplicação ou acessar o seguinte link
-
-[Instituto Bukar]()
 
 **Link do figma da aplicação**
 
