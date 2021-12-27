@@ -1,6 +1,8 @@
+import { News } from "./components/News";
 import { Hero } from "./components/Hero";
 import { Client } from "./components/Clients";
 import { Header } from "./layout/Header";
+import { Invite } from "./components/Invite";
 import { Navbar } from "./components/Navbar";
 import { AboutUs } from "./components/AboutUs";
 import { Courses } from "./components/Courses";          
@@ -21,6 +23,8 @@ function App() {
       <AboutUs />
       <Category />
       <Courses />
+      <News />
+      <Invite />
     </>
   );
 }
