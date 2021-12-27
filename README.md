@@ -17,6 +17,8 @@ Aproveito mencionar que a aplicação não está responsiva tento em conta o cur
 
 Home page da aplicação
 
+<img src="./src/assets/home.png" alt="home page screen"/>
+
 
 ## Desafios cumpridos
 
