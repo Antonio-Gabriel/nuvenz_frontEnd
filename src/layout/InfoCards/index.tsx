@@ -1,8 +1,6 @@
 import courseImage from "../../assets/images/cources.png";
 import companyImage from "../../assets/images/company.png";
 
-import "./styles.scss";
-
 import { InfoCard } from "../../components/InfoCard";
 
 export function InfoCards() {
