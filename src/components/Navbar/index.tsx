@@ -17,6 +17,7 @@ export function Navbar() {
 
             <div className="navbar-dropdown">
               <span className="navbar-item">Mais informações</span>
+              <span className="navbar-item">Sobre nós</span>
             </div>
           </li>
           <li>Contacto</li>
